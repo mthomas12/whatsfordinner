@@ -1,4 +1,47 @@
+/* inmage for background */
+
 body {
     background-image: url("images/veggiesPattern.jpg");
-    opacity: .6;
+}
+
+
+/* style title bar */
+
+#title {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* style the ingredigent entry form */
+
+.ingred {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    text-align: center;
+    border: .25pc solid black;
+}
+
+
+/* format form to float left */
+
+#form {
+    float: left;
+}
+
+.onHand {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    text-align: center;
+    border: .25pc solid black;
+}
+
+#form2 {
+    float: right;
 }
